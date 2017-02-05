@@ -1,12 +1,13 @@
 .col-md-12.pano-c {
 	padding: 0;
+	width: 100vw;
+	overflow: hidden;
 }
 .pano-c, #pano{
 			height: 70vh;
 		}
 		.tile{
-	        margin-right: 30px;
-	        margin-bottom: 30px;
+	        margin: 0;
 		    float: left;
 		    background-color: #EEE;
 		    line-height: 100px;
