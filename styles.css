@@ -28,7 +28,7 @@
 
 .tiles-scroll-container{
 	padding: 0;
-	height: 20vh;
+	height: 153px;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	width: 100%;
