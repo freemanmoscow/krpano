@@ -20,9 +20,15 @@
 	max-height: 138px;
 	width: 138px;
 }
+
+.tiles-container {
+	width: 200%;
+	height: auto;
+}
+
 .tiles-scroll-container{
 	padding: 0;
-	height: 16vh;
+	height: 17vh;
 	overflow-x: scroll;
 	overflow-y: hidden;
 	width: 100%;
