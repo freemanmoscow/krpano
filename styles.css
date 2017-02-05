@@ -20,8 +20,12 @@
 	max-height: 138px;
 	width: 138px;
 }
-.tiles-container{
+.tiles-scroll-container{
 	padding: 0;
+	height: 16vh;
+	overflow-x: scroll;
+	overflow-y: hidden;
+	width: 100%;
 }
 
 .tile div{
