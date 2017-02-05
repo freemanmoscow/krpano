@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>krpano - CtyHlD11</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<style>
+		@-ms-viewport { width:device-width; }
+		@media only screen and (min-device-width:800px) { html { overflow:hidden; } }
+		html { height:100%; }
+		body { height:100%; overflow:hidden; margin:0; padding:0; font-family:Arial, Helvetica, sans-serif; font-size:16px; color:#FFFFFF; background-color:#000000; }
+		
+	</style>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<script src="tour.js"></script>
+
+
+
+
+<div class="container">
+	&nbsp;
+	<div class="modal fade" id="myModal" role="dialog">
+	    <div class="modal-dialog">
+	    
+	      <!-- Modal content-->
+	      <div class="modal-content">
+	        <div class="modal-header">
+	          <button type="button" class="close" data-dismiss="modal" onclick="stopVideo()">&times;</button>
+	          <h5 class="modal-title">Video Player</h5>
+	        </div>
+	        <div class="modal-body">
+		       <!--  <div>
+		        	<input type="radio" name="option" value="burj" onclick="radioSelect(this.value)"> Burj
+		        </div>
+		        <div>
+		        	<input type="radio" name="option" value="road" onclick="radioSelect(this.value)">	Road
+		        </div>
+		        <div>
+		        	<input type="radio" name="option" value="horbour" onclick="radioSelect(this.value)">	Horbour
+		        </div>
+		        <div>
+		        	<input type="radio" name="option" value="ground" onclick="radioSelect(this.value)"> Ground	
+		        </div> -->
+		        
+		        <iframe width="560" height="315" class="video-player" id="videoPlayer" src="" frameborder="0" allowfullscreen></iframe>
+
+	        </div>
+	        <div class="modal-footer">
+	          <!-- <button type="button" class="btn btn-default" onclick="go()"> Take me there </button> -->
+	          <button type="button" class="btn btn-default" data-dismiss="modal" onclick="stopVideo()">Close</button>
+	        </div>
+	      </div>
+	      
+	    </div>
+	</div>
+	<!-- <button id="lookAtBtn" onclick="zoom()"> zoom </button>
+	<button id="lookAtBtn" onclick="getPos()"> Get Position </button> -->
+	<!-- <button id="someBtn" onclick="move()"> get details </button>  -->
+		<div class="col-md-12 pano-c">
+		  		
+		  		<div id="pano" style="" >
+					<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+					<script>
+						embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"prefer", mobilescale:1.0, passQueryParameters:true});
+					</script>
+				</div>
+
+				<div class="tiles-container">
+					<div class="tile" onclick="showViewPosition('burj')">
+						<div>Burj</div>
+						<img src="burj.png">
+					</div>
+
+					<div class="tile" onclick="showViewPosition('road')">
+						<div>Road</div>
+						<img src="road.png">
+					</div>
+
+					<div class="tile" onclick="showViewPosition('horbour')">
+						<div>Horbour</div>
+						<img src="horbour.png">
+					</div>
+
+					<div class="tile" onclick="showViewPosition('ground')">
+						<div>Ground</div>
+						<img src="ground.png">
+					</div>
+					<div class="tile" onclick="showViewPosition('save')"> 
+						<div>Save view </div>
+						<span class="glyphicon glyphicon-hdd"></span></p>
+					</div>
+					<div class="tile" onclick="showViewPosition('reset')"> 
+						<div>Reset view</div>
+						<span class="glyphicon glyphicon-refresh"></span></p>
+					</div>
+				</div>
+
+		</div>
+
+		
+	<!-- </div> -->
+</div>
+
+
+
+	
+</div>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script src="test.js"></script>
+</body>
+</html>

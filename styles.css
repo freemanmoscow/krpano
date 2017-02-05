@@ -1,0 +1,35 @@
+.pano-c, #pano{
+			height: 70vh;
+		}
+		.tile{
+	        margin-right: 30px;
+	        margin-bottom: 30px;
+		    float: left;
+		    background-color: #EEE;
+		    line-height: 100px;
+		    text-align: center;
+		    cursor: pointer;
+		    font-weight: bold;
+		    font-size: 18px;
+		    padding: 10px;    
+		    max-height: 138px;
+		    width: 138px;
+		}
+		.tiles-container{
+			padding: 20px 0px;
+		}
+
+		.tile div{
+			line-height: 16px;
+			font-size: 16px;
+			font-weight: normal;
+		}
+
+		.tile span{
+			font-size: 46px;
+		}
+
+
+.video-player{
+	display: none;
+}		
