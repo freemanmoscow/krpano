@@ -3,7 +3,7 @@
 	<!-- <include url="skin/vtourskin.xml" /> -->
 	<plugin name="gyro" devices="html5" keep="true"
 			url="plugins/gyro2.js"
-			enabled="false"
+			enabled="true"
 			camroll="true"
 			friction="0.0"
 			touch_mode="full"
