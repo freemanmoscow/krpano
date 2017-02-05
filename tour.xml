@@ -1,7 +1,20 @@
 ﻿<krpano version="1.19" title="Virtual Tour">
 
 	<!-- <include url="skin/vtourskin.xml" /> -->
-
+	<plugin name="gyro" devices="html5" keep="true"
+			url="gyro2.js"
+			enabled="false"
+			camroll="true"
+			friction="0.0"
+			touch_mode="full"
+			sensor_mode="1"
+			softstart="0.5"
+			autocalibration="false"
+			onavailable=""
+			onunavailable=""
+			onenable=""
+			ondisable=""
+	/>
 
 	<!-- customize skin settings: maps, gyro, webvr, thumbnails, tooltips, layout, design, ... -->
 	<skin_settings maps="false"
