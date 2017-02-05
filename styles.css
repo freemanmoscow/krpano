@@ -1,3 +1,6 @@
+.col-md-12.pano-c {
+	padding: 0;
+}
 .pano-c, #pano{
 			height: 70vh;
 		}
@@ -32,4 +35,8 @@
 
 .video-player{
 	display: none;
-}		
+}
+
+.container {
+	padding: 0;
+}
