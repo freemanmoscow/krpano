@@ -1,37 +1,38 @@
 .col-md-12.pano-c {
 	padding: 0;
 	width: 100vw;
+	height: 100vh;
 	overflow: hidden;
 }
-.pano-c, #pano{
-			height: 70vh;
-		}
-		.tile{
-	        margin: 0;
-		    float: left;
-		    background-color: #EEE;
-		    line-height: 100px;
-		    text-align: center;
-		    cursor: pointer;
-		    font-weight: bold;
-		    font-size: 18px;
-		    padding: 10px;    
-		    max-height: 138px;
-		    width: 138px;
-		}
-		.tiles-container{
-			padding: 0;
-		}
+#pano{
+	height: 100vh;
+}
+.tile{
+	margin: 0;
+	float: left;
+	background-color: #EEE;
+	line-height: 100px;
+	text-align: center;
+	cursor: pointer;
+	font-weight: bold;
+	font-size: 18px;
+	padding: 10px;
+	max-height: 138px;
+	width: 138px;
+}
+.tiles-container{
+	padding: 0;
+}
 
-		.tile div{
-			line-height: 16px;
-			font-size: 16px;
-			font-weight: normal;
-		}
+.tile div{
+	line-height: 16px;
+	font-size: 16px;
+	font-weight: normal;
+}
 
-		.tile span{
-			font-size: 46px;
-		}
+.tile span{
+	font-size: 46px;
+}
 
 
 .video-player{
