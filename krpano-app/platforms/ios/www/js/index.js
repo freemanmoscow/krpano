@@ -32,7 +32,7 @@ var app = {
 
     // Update DOM on a Received Event
     receivedEvent: function(id) {
-        window.location.href = 'http://krpano.paperplane.io';
+			window.location.href = 'http://krpano.paperplane.io';
     }
 };
 
