@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		BLp2jhy/zS2d2Vb1FpRTin1h7Bk=
+		WiTJwGqTwdVNNXMCj2YY/7DvJ1Q=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		sS5HGIpi5ojxpovbu/V/26L4D/g=
+		19YSFDaGCmttCpr6H7x15DPk5vQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		AyMUFIoH9RCs4+RQfcP7hpqhIpY=
+		55Ry1FI+be6q6rrm+YVmQvQb8qU=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -174,7 +174,7 @@
 		</data>
 		<key>embedded.mobileprovision</key>
 		<data>
-		tD5aUcqFcSAiSyVuUBH3jpTZHV4=
+		A5BhNnKelOs//J6kpw1+ELPYgZI=
 		</data>
 		<key>www/cordova-js-src/exec.js</key>
 		<data>
@@ -435,11 +435,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			BLp2jhy/zS2d2Vb1FpRTin1h7Bk=
+			WiTJwGqTwdVNNXMCj2YY/7DvJ1Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			G7yiZvGuoxx9lJcrBLRf6wLvzOoH7EVFj2V+a79irrc=
+			yVzB4H8746bzHyKCM5UpBEiCvJ6MvC5mv/VuOkiI0cc=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -457,11 +457,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sS5HGIpi5ojxpovbu/V/26L4D/g=
+			19YSFDaGCmttCpr6H7x15DPk5vQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			20O5w98X7BAC6MV4cfR0F/7eVMxXuQJeKbVrBCgiukY=
+			yE8SFFm8NerAQASa+8U2fv9fsPj4/tie4DzwvVtyMeg=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -622,11 +622,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			AyMUFIoH9RCs4+RQfcP7hpqhIpY=
+			55Ry1FI+be6q6rrm+YVmQvQb8qU=
 			</data>
 			<key>hash2</key>
 			<data>
-			hky4lv+VmVKiJG96xPiHvX7RhD7VogI0W7PYmAiKiX8=
+			Ez4ijGMOZ+83ROTWZUL0IXK8Mq+OWbe53fG9D45HmpA=
 			</data>
 		</dict>
 		<key>archived-expanded-entitlements.xcent</key>
@@ -655,11 +655,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tD5aUcqFcSAiSyVuUBH3jpTZHV4=
+			A5BhNnKelOs//J6kpw1+ELPYgZI=
 			</data>
 			<key>hash2</key>
 			<data>
-			DpwcjFSRAfiU/djNMN1VLDJFtMuximjKzKsu1DTqgsk=
+			vdlnUS4tTDqN4KSkOI5/Hll2lGHPr3ZGG6EuZOaDSgY=
 			</data>
 		</dict>
 		<key>www/cordova-js-src/exec.js</key>
